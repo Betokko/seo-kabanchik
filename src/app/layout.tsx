@@ -1,10 +1,6 @@
 import type {Metadata} from "next";
-import localFont from "next/font/local";
 import "./globals.css";
-import {SidebarProvider, SidebarTrigger} from "@/components/ui/sidebar";
 import {ThemeProvider} from "@/components/theme-provider/ThemeProvider";
-import {AppSidebar} from "@/components/app-sidebar/AppSidebar";
-import {ModeToggle} from "@/components/mode-togle/ModeTogle";
 
 export const metadata: Metadata = {
     title: "Create Next App",

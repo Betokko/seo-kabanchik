@@ -10,8 +10,6 @@ import {
     BreadcrumbList,
     BreadcrumbSeparator
 } from "@/components/ui/breadcrumb";
-import {Home} from "lucide-react"
-import {Button} from "@/components/ui/button";
 
 export function Breadcrumbs() {
     const pathname = usePathname();
